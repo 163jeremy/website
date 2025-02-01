@@ -3,13 +3,12 @@
 }
 
 .pic-container {
-    display: flex;
     text-align: center; 
     justify-content: center;  
 }
 
 .pic-container img {
-    object-fit: cover
+    object-fit: contain;
 }
 
 .main-picture h5 {
@@ -126,7 +125,6 @@
 
 .footer > p {
     color: white;
-    font-size: 20px;
     margin: 0;
 }
 
@@ -145,17 +143,17 @@
     font-family: "Zain", serif;
 }
 
-@media (min-width: 1201px)  {
+@media (min-width: 481px)  {
     body {
-      
+
     }
 
     body h5 {
-        font-size: x-large;
+        font-size: large;
     }
 
     body p {
-        font-size: x-large;
+        font-size: large;
     }
 
 }
