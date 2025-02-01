@@ -1,9 +1,11 @@
 .main-picture {
     background-color: #001689;
-    text-align: center;
-    padding: 0 20%;
 }
 
+.image {
+    text-align: center;
+    overflow: hidden;
+}
 
 .main-picture h5 {
     font-family: "Lora", serif;
