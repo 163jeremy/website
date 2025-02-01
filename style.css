@@ -1,14 +1,9 @@
 .main-picture {
     background-color: #001689;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 0 20%;
 }
 
-.main-picture img{
-    object-fit: fill;
-    padding: 0 30%;
-}
 
 .main-picture h5 {
     font-family: "Lora", serif;
