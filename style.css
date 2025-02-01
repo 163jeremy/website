@@ -6,8 +6,8 @@
 }
 
 .main-picture img{
-    width: 500px;
-    object-fit: cover;
+    object-fit: fill;
+    padding: 0 30%;
 }
 
 .main-picture h5 {
