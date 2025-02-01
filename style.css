@@ -1,13 +1,13 @@
 .main-picture {
     background-color: #001689;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.pic-container {
-    text-align: center;  
-}
-
-.pic-container img {
-    
+.main-picture img{
+    width: 800px;
+    object-fit: cover;
 }
 
 .main-picture h5 {
@@ -143,9 +143,6 @@
 }
 
 @media (min-width: 481px)  {
-    body {
-
-    }
 
     body h5 {
         font-size: medium;
