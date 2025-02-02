@@ -92,7 +92,7 @@
 
 .parent {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: 0.5fr 1.5fr ;
     grid-template-rows: auto auto auto auto;
     width: 70%;
     gap: 30px;
