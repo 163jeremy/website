@@ -8,7 +8,7 @@
 }
 
 .image img {
-    height: 300px;
+    width: 70%;
 }
 
 .main-picture h5 {
@@ -87,7 +87,6 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    
 }
 
 .parent {
@@ -153,5 +152,44 @@
         font-size: medium;
     }
 
+    body h3 {
+        font-size: medium;
+    }
+
 }
 
+@media (max-width: 481px) {
+
+    body h5 {
+        font-size: 5px;
+    }
+
+    body h3 {
+        font-size: 5px;
+    }
+
+    body p {
+        font-size: 5px;
+    }
+
+    .about-first > img{
+        border-radius: 50%;
+        border: solid white;
+        width: 20%;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 50%;
+        gap: 1px;
+    }
+    
+}
